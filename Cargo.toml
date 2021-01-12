@@ -1,0 +1,14 @@
+[package]
+name = "kernel"
+version = "0.1.0"
+authors = ["Jake <test@test.com>"]
+edition = "2018"
+
+[dependencies]
+bootloader = "0.9.8"
+
+[profile.dev]
+painc = "abort"
+
+[profile.release]
+panic = "abort"

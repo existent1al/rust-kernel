@@ -1,0 +1,7 @@
+cargo:rerun-if-changed=C:\Users\Jake\Downloads\Code\kernel\Cargo.toml
+cargo:rustc-link-search=native=C:\Users\Jake\Downloads\Code\kernel\target\bootimage\bootloader\x86_64-bootloader\release\build\bootloader-b8fa0267eca51527\out
+cargo:rustc-link-lib=static=kernel_bin-kernel
+cargo:rerun-if-env-changed=KERNEL
+cargo:rerun-if-env-changed=KERNEL_MANIFEST
+cargo:rerun-if-changed=\\?\C:\Users\Jake\Downloads\Code\kernel\target\x86_64_kernel\debug\kernel
+cargo:rerun-if-changed=build.rs
